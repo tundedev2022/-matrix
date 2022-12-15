@@ -1,0 +1,681 @@
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+} 
+body{
+    background-color:hsl(60, 33%, 90%);
+    overflow-x: hidden;
+
+}
+.header_head{
+    position: relative;
+    height:120vh;
+    width: 100%;
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    background-image: url("/img/interior-gacaacef88_1920.jpg");
+    background-size: cover;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    float: right;
+    text-transform:capitalize;
+}
+.nav li{
+    padding: 30px 10px;
+}
+.nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.interior{
+    color:white;
+    font-size:50px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.header_text {
+    padding: 5px 30px;
+    display:grid;
+    justify-content: center;
+
+}
+
+.tab_text {
+    font-size:50px;
+    color:chocolate;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu_text h4  {
+    color:white;
+    font-weight:900;
+    font-size:17px;
+    padding:15px 5px;
+}
+.bar_text{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.bar_text a{
+    margin: 0 3px;
+    align-items:center;
+}
+.bar_text i{
+    color:black;
+    font-size: 25;
+
+}
+
+.font-awesome{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 90px;
+}
+.btn  {
+    margin-left: 150px;
+    padding: 15px 43px;
+    background-color: chocolate;
+    color:white;
+    border:none ;
+    border-radius: 60px;
+    font-size:12px;
+    font-weight: 700;   
+}
+.logo{
+    background-color:burlywood;
+    border-radius: 100%;
+    padding: 10px;
+    width:10%;
+    height:8% ;
+    position: absolute;
+    top:10px;
+    left: 20px;
+}
+.sub_logo{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding:5px ;
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(138, 134, 128);
+
+}
+/* WINDOW'S VERSION */
+@media screen and (min-width:768px) {
+    .logo{
+        display: grid;
+        background-color:rgb(153, 122, 82);
+        border-radius: 100%;
+        padding: 5px ;
+        width:5%;
+        height:8% ;
+        position: absolute;
+        top:10px;
+        left: 40px;
+    }
+    .side_text{
+        display: flex;
+        margin-left: 60px;
+        padding:15px 2px;
+        letter-spacing: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: oblique;
+        color:ghostwhite;
+    }
+    
+    .sub_logo{
+        justify-content: center;
+        align-items: center;
+        padding:10px ;
+        font-family: cursive;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(49, 41, 29);
+    
+    }
+    
+    .nav li a {
+        text-decoration: none;
+        background-color:transparent;
+        color:ghostwhite;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .nav{
+        padding:20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        float: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform:capitalize;
+    }
+   
+    .header_text .tab_text{
+        padding: 0 105px;
+        font-size:90px;
+        font-weight: 800;
+    }
+    .interior{
+        font-size: 90px;
+    }
+    .menu_text h4  {
+        color:black;
+        display: grid;
+        font-weight:900;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:3vh;
+        margin: 0 105px;
+    }
+    .btn {
+        background-color: chocolate;
+        color:white;
+        border:none ;
+        margin-left: 120px;
+        border-radius: 40px;
+        padding: 20px 60px;
+        font-size:15px;
+        width: 100%;
+        
+    }
+    .bar_text{
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+    }
+    .bar_text a{
+        margin: 0 6px;
+    }
+    .bar_text i{
+        color:rgb(16, 16, 20);
+        font-size: 30;
+    
+    }
+
+}
+
+
+.parent{
+
+    background-image: url("/img/furniture-gce4bc3a7e_1920.jpg");
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    
+}
+    .logo_box{
+        display:flex;
+        grid-template-columns: 30% 30% 40% ;
+        margin:5px 3px;
+        padding: 0 2px;   
+     }
+     .text_box{
+         margin:0 auto;
+
+     }
+
+.child{
+    font-family: monospace;
+    font-size: 5vh;
+    font-weight: 900;
+    color:grey;
+    padding:80px 45px;
+    
+}
+.para{
+    display: grid;
+    height:50% ;
+    padding: 20px 0;
+    color:whitesmoke;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.jekky{
+    font-size: 25px;
+    color:white;
+}
+.jason{
+    font-size: 25px;
+    color:white ;
+}
+.john{
+    font-size:25px;
+    color:white;
+}
+
+ 
+ .text_box{
+     color:white;
+     padding:20px 50px;
+ }
+ 
+ .form_box{
+     color:white;
+     padding:20px 50px;
+ }
+
+ .format_box{
+     color:white;
+     padding:20px 50px;
+ }
+.pops1{
+    display: grid;
+    padding: 40% 0;
+    color:black;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+
+    
+}
+.pops2{
+    display: grid;
+    padding: 45% 0;
+    color:black;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+}
+.pops3{
+    display: grid;
+    padding: 55% 0;
+    color:black;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+/* mobile version */
+@media screen and (min-width:768px) {
+    .child{
+        font-family: monospace;
+        font-size: 8vh;
+        font-weight: 900;
+        color:burlywood;
+        padding:50px 45px;
+        
+    }
+    .para{
+        display: grid;
+        height:50% ;
+        padding: 20px 0;
+        color: hsl(20, 2%, 68%);
+        font-size: 17px;
+        font-weight: 700;
+        font-style: oblique;
+    }
+    .jekky{
+        font-size: 35px;
+        color:gray;
+    }
+    .jason{
+        font-size: 35px;
+        color:wheat;
+    }
+    .john{
+        font-size:35px;
+        color:white;
+    }
+    
+     
+     .text_box{
+         text-transform: capitalize;
+         color:chocolate;
+         padding:20px 50px;
+     }
+     
+     .form_box{
+        text-transform: capitalize;
+         color:white;
+         padding:20px 50px;
+     }
+    
+     .format_box{
+        text-transform: capitalize;
+         color:white;
+         padding:20px 50px;
+     }
+    .pops1{
+        display: grid;
+        padding: 40% 0;
+        color:black;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: oblique;
+    
+        
+    }
+    .pops2{
+        display: grid;
+        padding: 45% 0;
+        color:black;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: oblique;
+    }
+    .pops3{
+        display: grid;
+        padding: 55% 0;
+        color:black;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: oblique;
+    }
+     
+}
+.physics{
+    background-image: url("/img/Class\ Vacation\ \(COMPLETE\)\ EDITING\ -\ 4.jpeg");
+    display:grid;
+    width:100%;
+    height:110vh;
+    grid-template-columns :50% 50% ;
+}
+.chemistry{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin:5px 30px;
+    padding-top: 30px;
+}
+.sazz{
+    color:black;
+    text-transform: lowercase;
+    padding: 2px 5px;
+    font-size: 4.3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cutty{
+    color:black;
+    padding:2px 7px;
+    margin-top: 30px;
+}
+.cump{
+    display: grid;   
+    padding:55px 10px;
+    color:ghostwhite;
+    font-size: 17px;
+    font-weight: 400;
+}
+.root{
+    padding:13px 35px;
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 30px;
+    color:silver;
+    font-size: 2vh;
+    font-weight: 400;
+    background-color: transparent;
+}
+.google{
+    background-image: url("/img/kitchen-g734ee2806_1920.jpg");
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.boot-cut{
+    padding: 100px ;
+    margin-top: 100px;
+    transform: scaley(2);
+}
+
+
+/* mobile version */
+@media  screen and (min-width:768px) {
+    .chemistry{
+        display: grid;
+        grid-template-rows: 40% 30% 30%;
+        justify-content: center;
+        align-items: center;
+        padding-block: 40px;
+    }
+    .sazz{
+        text-transform: uppercase;
+        color:black;
+        font-size: 10vh;
+        font-weight: 800;
+        font-family: monospace;
+    
+    }
+    .cutty{
+        text-transform: capitalize;
+        color:whitesmoke;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .cump{
+        display: inline-block;   
+        color:ghostwhite;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .root{
+        padding:10px 55px;
+        margin-top: 90px;
+        width: fit-content;
+        border-radius: 20px;
+        color:silver;
+        font-size: 3vh;
+        font-weight: 400;
+        background-color: transparent;
+    }
+
+    
+}
+.rector{
+    background-image: url("/img/Class\ Vacation\ \(COMPLETE\)\ EDITING\ -\ 4.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.victor{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+    .yatch{
+        padding-top:120px ;
+        padding-right:2px;
+        height: 100%;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 5px;
+        
+    }
+    .batch {
+        width:100vw;
+    }
+    
+    .batch .form {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .form__group {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1em;
+    }
+    
+    .form__group * {
+        width: 100%;
+        padding:10px 20px;
+    }
+    
+    .form__group input {
+        border: none;
+        border-bottom: 2px solid white;
+        background: transparent !important;
+        outline: none;
+        color: #fff;
+    }
+    
+    .form__group input::placeholder {
+        color: #fff;
+        font-weight: 700;
+    }
+    .botton{
+        border-radius: 30px;
+        margin-left: 30px;
+        padding:10px 5px;
+        outline: none;
+        background: transparent !important;
+
+    }
+
+    /* mobile-version */
+
+    @media  screen and (min-width:768px) {  
+        
+.rector{
+    background-image: url("/img/mid-century-modern-living-room-interior-design-with-monstera-tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.victor{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+    .yatch{
+        padding-top:120px ;
+        padding-left:2px;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 9px;
+        
+    }
+    .batch {
+        width:100vw;
+    }
+    
+    .batch .form {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .form__group {
+        width: 50%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        gap: 1em;
+    }
+    
+    .form__group * {
+        width: 100%;
+        padding:10px 20px;
+    }
+    
+    .form__group input {
+        border: none;
+        border-bottom: 2px solid white;
+        background: transparent !important;
+        outline: none;
+        color: #fff;
+    }
+    
+    .form__group input::placeholder {
+        color: #fff;
+        font-weight: 700;
+    }
+    .botton{
+        border-radius: 30px;
+        margin-left: 30px;
+        padding:10px 5px;
+        outline: none;
+        background: transparent !important;
+        
+    }    
+}
+
+.counterfeit{
+    height: 70vh;
+    width:100%;
+    background-color: grey;
+    
+}
+.transform{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 25% ;
+        color:white;
+        text-transform: capitalize;
+        font-family: cursive;
+}
+.victony  {
+    padding: 5px 2px;
+}
+.variety{
+    padding: 0 10px ;
+}
+
+.laxer-ray{
+    display: flex;
+    justify-content: right;
+}
+.laxer-ray i{
+    color:black ;
+    margin-right: 5px;
+    padding:5px 2px;
+}
+
+/*WINDOW'S VERSION */
+@media  screen and (min-width:768px){
+    
+.counterfeit{
+    height: 50vh;
+    width:100%;
+    background-color: grey;
+    
+}
+.transform{
+        display: grid;
+        grid-template-columns: 10% 15% 15% 15% 15% 30% ;
+        padding:80px 50px;
+        color:black;
+}
+
+.laxer-ray{
+    display: flex;
+    justify-content: right;
+}
+.laxer-ray i{
+    color:black ;
+    margin: 0 2px;
+    padding:5px 10px;
+}
+
+    
+}
+
